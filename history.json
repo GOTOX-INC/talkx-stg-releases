@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "env": "stg",
+  "repo": "GOTOX-INC/talkx-stg-releases",
+  "updatedAt": "2026-10-28T03:17:59.736Z",
+  "natives": {
+    "android": {
+      "503": {
+        "appVersion": "1.0.46",
+        "bridgeApiVersion": 1,
+        "capacitor": "8",
+        "capabilities": [
+          "@capacitor/core@8",
+          "@capacitor-community/file-opener@8",
+          "@capacitor-community/media@9",
+          "@capacitor-firebase/messaging@8",
+          "@capacitor/app@8",
+          "@capacitor/app-launcher@8",
+          "@capacitor/browser@8",
+          "@capacitor/filesystem@8",
+          "@capacitor/preferences@8",
+          "@capacitor/share@8",
+          "@capacitor/status-bar@8",
+          "@capawesome/capacitor-badge@8",
+          "@capgo/capacitor-speech-recognition@8",
+          "@capgo/capacitor-updater@8",
+          "mobile-ci-downloader@1+d8999cc9d441"
+        ],
+        "nativeInputs": "3581ad69915e",
+        "nativeInputsDetail": {
+          "files": {
+            "assets": "eb80b19046c5",
+            "firebase": "593580a61299",
+            "lib/20_capacitor": "d2d58e2368af",
+            "lib/25_android": "4fe7e67ed51f",
+            "lib/30_platform": "ac519c481bad",
+            "lib/35_app_icon": "fe7f459434fe",
+            "lib/prepare-icon.js": "fcc3740208de"
+          },
+          "vars": {
+            "ADMOB_APP_ID_ANDROID": "b9f3561897ce",
+            "ADMOB_APP_ID_IOS": "678727fb86f2",
+            "ADMOB_ENABLED": "fcbcf165908d",
+            "APPSFLYER_ATT_DESC": "fe43373bd8b5",
+            "APPSFLYER_ATT_DESC_KO": "196560129455",
+            "APPSFLYER_ATT_ENABLED": "b5bea41b6c62",
+            "APPSFLYER_ENABLED": "fcbcf165908d",
+            "APP_ICON": "d7131528ebfa",
+            "APP_ID": "2245c0e79974",
+            "APP_ID_ANDROID": "2245c0e79974",
+            "APP_ID_IOS": "5d11a4164c58",
+            "APP_NAME": "5eba9e4a00c4",
+            "APP_SPLASH_ICON": "d847f666718f",
+            "APP_VERSION": "a12b21adce96",
+            "BUILD_CMD": "e3b0c44298fc",
+            "CAP_ALLOW_NAVIGATION": "e3b0c44298fc",
+            "CAP_APPEND_USER_AGENT": "02ba23fc7bcf",
+            "CAP_HOSTNAME": "9bf8a8bb653a",
+            "CAP_ICON_BG": "f2074b6cef37",
+            "CAP_SPLASH_BG": "55302efec624",
+            "DEEP_LINK_SCHEME": "1c6c1a29c7e8",
+            "FIREBASE_NOTI_CHANNEL_ID": "1cc0fe4f19cb",
+            "FIREBASE_NOTI_CHANNEL_NAME": "4cd44bae95c4",
+            "FIREBASE_NOTI_COMMUNICATION": "b5bea41b6c62",
+            "FIREBASE_NOTI_ENABLED": "929260ad9b9e",
+            "FIREBASE_NOTI_ICON": "9028ee6d15ea",
+            "FIREBASE_NOTI_ICON_COLOR": "e440a36e9afb",
+            "INDEX_HTML_PATH": "e3b0c44298fc",
+            "IOS_SCHEME": "0d04bfeb7d64",
+            "MOBILE_CI_PLATFORM": "f60ed56a9c82",
+            "NATIVE_CLIPBOARD_IMAGE_ENABLED": "b5bea41b6c62",
+            "NATIVE_DOWNLOAD_ENABLED": "b5bea41b6c62",
+            "NATIVE_DOWNLOAD_OPEN_FOLDER": "b5bea41b6c62",
+            "NATIVE_DOWNLOAD_PATCH_WEBSHARE": "b5bea41b6c62",
+            "PERM_DESC_CAMERA": "464ea91dccba",
+            "PERM_DESC_CAMERA_KO": "39a5159931c1",
+            "PERM_DESC_MICROPHONE": "8f839526e16d",
+            "PERM_DESC_MICROPHONE_KO": "bc38122af0a9",
+            "PERM_DESC_PHOTO_ADD": "684f4d81d826",
+            "PERM_DESC_PHOTO_ADD_KO": "6c2f7283d8cc",
+            "PERM_DESC_PHOTO_LIBRARY": "684f4d81d826",
+            "PERM_DESC_PHOTO_LIBRARY_KO": "6c2f7283d8cc",
+            "PERM_DESC_SPEECH": "778d3a554b6e",
+            "PERM_DESC_SPEECH_KO": "31a8b312432d",
+            "PLATFORMS": "f60ed56a9c82",
+            "STATUS_BAR_BG": "5f7be039423f",
+            "STATUS_BAR_BG_LIGHT": "f2074b6cef37",
+            "VERSION_CODE_BASE": "0604cd3138fe",
+            "WEB_DIR": "bcae0416621b",
+            "WEB_OTA_ENABLED": "b5bea41b6c62"
+          }
+        },
+        "commit": "bc78c58286d32a4a7995a065912032dd6c01a6fd",
+        "builtAt": "2026-10-28T03:17:57.970Z"
+      }
+    },
+    "ios": {}
+  },
+  "builds": [],
+  "kind": "history",
+  "rev": 1,
+  "events": [
+    {
+      "at": "2026-10-28T03:17:59.736Z",
+      "rev": 1,
+      "actor": "github-actions[bot]",
+      "run": "https://github.com/GOTOX-INC/talkx-apps/actions/runs/40625368027",
+      "type": "import"
+    },
+    {
+      "at": "2026-10-28T03:17:59.736Z",
+      "rev": 1,
+      "actor": "github-actions[bot]",
+      "run": "https://github.com/GOTOX-INC/talkx-apps/actions/runs/40625368027",
+      "type": "register",
+      "platform": "android",
+      "nativeBuild": "503",
+      "appVersion": "1.0.46"
+    }
+  ],
+  "mirror": {
+    "assetId": 683670296,
+    "mirroredAt": "2026-10-28T03:18:08.923Z"
+  }
+}

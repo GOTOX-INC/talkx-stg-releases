@@ -2,7 +2,7 @@
   "schema": 1,
   "env": "stg",
   "repo": "GOTOX-INC/talkx-stg-releases",
-  "updatedAt": "2026-10-28T03:46:48.413Z",
+  "updatedAt": "2026-10-28T03:54:15.136Z",
   "natives": {
     "android": {
       "503": {
@@ -142,6 +142,31 @@
           "mobile-ci-downloader@1+d8999cc9d441"
         ],
         "nativeInputs": "d4c7ced028e3",
+        "commit": "bc78c58286d32a4a7995a065912032dd6c01a6fd",
+        "builtAt": "2026-10-28T03:21:03.355Z"
+      },
+      "504": {
+        "appVersion": "1.0.47",
+        "bridgeApiVersion": 1,
+        "capacitor": "8",
+        "capabilities": [
+          "@capacitor/core@8",
+          "@capacitor-community/file-opener@8",
+          "@capacitor-community/media@9",
+          "@capacitor-firebase/messaging@8",
+          "@capacitor/app@8",
+          "@capacitor/app-launcher@8",
+          "@capacitor/browser@8",
+          "@capacitor/filesystem@8",
+          "@capacitor/preferences@8",
+          "@capacitor/share@8",
+          "@capacitor/status-bar@8",
+          "@capawesome/capacitor-badge@8",
+          "@capgo/capacitor-speech-recognition@8",
+          "@capgo/capacitor-updater@8",
+          "mobile-ci-downloader@1+d8999cc9d441"
+        ],
+        "nativeInputs": "9a40498076a2",
         "nativeInputsDetail": {
           "files": {
             "assets": "eb80b19046c5",
@@ -166,11 +191,11 @@
             "APP_ID_IOS": "5d11a4164c58",
             "APP_NAME": "5eba9e4a00c4",
             "APP_SPLASH_ICON": "d847f666718f",
-            "APP_VERSION": "a12b21adce96",
+            "APP_VERSION": "c0f79c88570d",
             "BUILD_CMD": "e3b0c44298fc",
             "CAP_ALLOW_NAVIGATION": "e3b0c44298fc",
-            "CAP_APPEND_USER_AGENT": "02ba23fc7bcf",
-            "CAP_HOSTNAME": "9bf8a8bb653a",
+            "CAP_APPEND_USER_AGENT": "bc8ab718321c",
+            "CAP_HOSTNAME": "ce6efc211d3d",
             "CAP_ICON_BG": "f2074b6cef37",
             "CAP_SPLASH_BG": "55302efec624",
             "DEEP_LINK_SCHEME": "1c6c1a29c7e8",
@@ -205,8 +230,8 @@
             "WEB_OTA_ENABLED": "b5bea41b6c62"
           }
         },
-        "commit": "bc78c58286d32a4a7995a065912032dd6c01a6fd",
-        "builtAt": "2026-10-28T03:21:03.355Z"
+        "commit": "6ceae4a5ff1d3a5c3134856a73ba4618b0151a2c",
+        "builtAt": "2026-10-28T03:54:13.011Z"
       }
     }
   },
@@ -268,7 +293,7 @@
     }
   ],
   "kind": "history",
-  "rev": 4,
+  "rev": 5,
   "events": [
     {
       "at": "2026-10-28T03:17:59.736Z",
@@ -315,10 +340,20 @@
       "platform": "android",
       "nativeBuild": "504",
       "appVersion": "1.0.47"
+    },
+    {
+      "at": "2026-10-28T03:54:15.136Z",
+      "rev": 5,
+      "actor": "github-actions[bot]",
+      "run": "https://github.com/GOTOX-INC/talkx-apps/actions/runs/40628125209",
+      "type": "register",
+      "platform": "ios",
+      "nativeBuild": "504",
+      "appVersion": "1.0.47"
     }
   ],
   "mirror": {
-    "assetId": 683729468,
-    "mirroredAt": "2026-10-28T03:47:00.052Z"
+    "assetId": 683744585,
+    "mirroredAt": "2026-10-28T03:54:26.768Z"
   }
 }

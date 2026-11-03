@@ -2,7 +2,7 @@
   "schema": 1,
   "env": "stg",
   "repo": "GOTOX-INC/talkx-stg-releases",
-  "updatedAt": "2026-11-03T06:59:46.915Z",
+  "updatedAt": "2026-11-03T08:33:24.840Z",
   "natives": {
     "android": {
       "503": {
@@ -52,13 +52,38 @@
           "mobile-ci-downloader@1+d8999cc9d441"
         ],
         "nativeInputs": "f87438361a4f",
+        "commit": "6ceae4a5ff1d3a5c3134856a73ba4618b0151a2c",
+        "builtAt": "2026-10-28T03:46:46.663Z"
+      },
+      "506": {
+        "appVersion": "1.0.49",
+        "bridgeApiVersion": 1,
+        "capacitor": "8",
+        "capabilities": [
+          "@capacitor/core@8",
+          "@capacitor-community/file-opener@8",
+          "@capacitor-community/media@9",
+          "@capacitor-firebase/messaging@8",
+          "@capacitor/app@8",
+          "@capacitor/app-launcher@8",
+          "@capacitor/browser@8",
+          "@capacitor/filesystem@8",
+          "@capacitor/preferences@8",
+          "@capacitor/share@8",
+          "@capacitor/status-bar@8",
+          "@capawesome/capacitor-badge@8",
+          "@capgo/capacitor-speech-recognition@8",
+          "@capgo/capacitor-updater@8",
+          "mobile-ci-downloader@1+d8999cc9d441"
+        ],
+        "nativeInputs": "6ef97d28beb4",
         "nativeInputsDetail": {
           "files": {
             "assets": "eb80b19046c5",
             "firebase": "593580a61299",
             "lib/20_capacitor": "d2d58e2368af",
             "lib/25_android": "4fe7e67ed51f",
-            "lib/30_platform": "ac519c481bad",
+            "lib/30_platform": "baef1f07cdb6",
             "lib/35_app_icon": "fe7f459434fe",
             "lib/prepare-icon.js": "fcc3740208de"
           },
@@ -76,10 +101,10 @@
             "APP_ID_IOS": "5d11a4164c58",
             "APP_NAME": "5eba9e4a00c4",
             "APP_SPLASH_ICON": "d847f666718f",
-            "APP_VERSION": "c0f79c88570d",
+            "APP_VERSION": "5d35be2d2dac",
             "BUILD_CMD": "e3b0c44298fc",
             "CAP_ALLOW_NAVIGATION": "e3b0c44298fc",
-            "CAP_APPEND_USER_AGENT": "bc8ab718321c",
+            "CAP_APPEND_USER_AGENT": "a3ae220856d4",
             "CAP_HOSTNAME": "ce6efc211d3d",
             "CAP_ICON_BG": "f2074b6cef37",
             "CAP_SPLASH_BG": "55302efec624",
@@ -97,10 +122,10 @@
             "NATIVE_DOWNLOAD_ENABLED": "b5bea41b6c62",
             "NATIVE_DOWNLOAD_OPEN_FOLDER": "b5bea41b6c62",
             "NATIVE_DOWNLOAD_PATCH_WEBSHARE": "b5bea41b6c62",
-            "PERM_DESC_CAMERA": "464ea91dccba",
-            "PERM_DESC_CAMERA_KO": "39a5159931c1",
-            "PERM_DESC_MICROPHONE": "8f839526e16d",
-            "PERM_DESC_MICROPHONE_KO": "bc38122af0a9",
+            "PERM_DESC_CAMERA": "765ac620a28c",
+            "PERM_DESC_CAMERA_KO": "9435ffca5b42",
+            "PERM_DESC_MICROPHONE": "f5d7fdb44614",
+            "PERM_DESC_MICROPHONE_KO": "65257f8f413f",
             "PERM_DESC_PHOTO_ADD": "684f4d81d826",
             "PERM_DESC_PHOTO_ADD_KO": "6c2f7283d8cc",
             "PERM_DESC_PHOTO_LIBRARY": "684f4d81d826",
@@ -115,8 +140,8 @@
             "WEB_OTA_ENABLED": "b5bea41b6c62"
           }
         },
-        "commit": "6ceae4a5ff1d3a5c3134856a73ba4618b0151a2c",
-        "builtAt": "2026-10-28T03:46:46.663Z"
+        "commit": "add11b5fe7afad7e73f1df5e3d8af6cd37f942a2",
+        "builtAt": "2026-11-03T08:33:22.803Z"
       }
     },
     "ios": {
@@ -458,7 +483,7 @@
     }
   ],
   "kind": "history",
-  "rev": 11,
+  "rev": 12,
   "events": [
     {
       "at": "2026-10-28T03:17:59.736Z",
@@ -575,10 +600,20 @@
       "buildId": "web-4.0.4-fa208cf",
       "from": "pending",
       "to": "approved"
+    },
+    {
+      "at": "2026-11-03T08:33:24.840Z",
+      "rev": 12,
+      "actor": "github-actions[bot]",
+      "run": "https://github.com/GOTOX-INC/talkx-apps/actions/runs/41603462351",
+      "type": "register",
+      "platform": "android",
+      "nativeBuild": "506",
+      "appVersion": "1.0.49"
     }
   ],
   "mirror": {
-    "assetId": 704651975,
-    "mirroredAt": "2026-11-03T06:59:54.974Z"
+    "assetId": 704895168,
+    "mirroredAt": "2026-11-03T08:33:38.031Z"
   }
 }

@@ -2,7 +2,7 @@
   "schema": 1,
   "env": "stg",
   "repo": "GOTOX-INC/talkx-stg-releases",
-  "updatedAt": "2026-11-03T08:40:17.035Z",
+  "updatedAt": "2026-11-05T02:04:58.818Z",
   "natives": {
     "android": {
       "503": {
@@ -287,6 +287,61 @@
   },
   "builds": [
     {
+      "buildId": "web-4.0.4-74170ae",
+      "webVersion": "4.0.4",
+      "commit": "74170aed406e669c1c9638f66e57e458711d83ea",
+      "createdAt": "2026-11-05T02:04:45.602Z",
+      "url": "https://github.com/GOTOX-INC/talkx-stg-releases/releases/download/web-4.0.4-74170ae/bundle.zip",
+      "sha256": "47a9834e5d04d21ec41ada75efeb4abb3f9c75aaa9a8808ae61f562077de863a",
+      "size": 2276745,
+      "contentHash": "e5c15ea39f87",
+      "bridgeApiVersion": 1,
+      "capacitor": "8",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "requiredCapabilities": {
+        "android": [
+          "@capacitor/core@8",
+          "@capacitor-community/file-opener@8",
+          "@capacitor-community/media@9",
+          "@capacitor-firebase/messaging@8",
+          "@capacitor/app@8",
+          "@capacitor/app-launcher@8",
+          "@capacitor/browser@8",
+          "@capacitor/filesystem@8",
+          "@capacitor/preferences@8",
+          "@capacitor/share@8",
+          "@capacitor/status-bar@8",
+          "@capawesome/capacitor-badge@8",
+          "@capgo/capacitor-speech-recognition@8",
+          "@capgo/capacitor-updater@8",
+          "mobile-ci-downloader@1+d8999cc9d441"
+        ],
+        "ios": [
+          "@capacitor/core@8",
+          "@capacitor-community/file-opener@8",
+          "@capacitor-community/media@9",
+          "@capacitor-firebase/messaging@8",
+          "@capacitor/app@8",
+          "@capacitor/app-launcher@8",
+          "@capacitor/browser@8",
+          "@capacitor/filesystem@8",
+          "@capacitor/preferences@8",
+          "@capacitor/share@8",
+          "@capacitor/status-bar@8",
+          "@capawesome/capacitor-badge@8",
+          "@capgo/capacitor-speech-recognition@8",
+          "@capgo/capacitor-updater@8",
+          "mobile-ci-downloader@1+d8999cc9d441"
+        ]
+      },
+      "status": "pending",
+      "rollout": 100,
+      "signature": "TyGgCYKpUqevC9ZIiAe-5EhuMKgixk_H04S4UMobboQs5bP5bAnLcy_Vv5L2TqwD_KNCyqKtlWE2dqAs9Tgsig"
+    },
+    {
       "buildId": "web-4.0.4-fa208cf",
       "webVersion": "4.0.4",
       "commit": "fa208cf99de1b97043a3f3aa84e8a849feb6932b",
@@ -508,7 +563,7 @@
     }
   ],
   "kind": "history",
-  "rev": 13,
+  "rev": 14,
   "events": [
     {
       "at": "2026-10-28T03:17:59.736Z",
@@ -645,10 +700,19 @@
       "platform": "ios",
       "nativeBuild": "506",
       "appVersion": "1.0.49"
+    },
+    {
+      "at": "2026-11-05T02:04:58.818Z",
+      "rev": 14,
+      "actor": "ditavo98",
+      "run": "https://github.com/GOTOX-INC/talkx-apps/actions/runs/41952663857",
+      "type": "publish",
+      "buildId": "web-4.0.4-74170ae",
+      "to": "pending"
     }
   ],
   "mirror": {
-    "assetId": 704912770,
-    "mirroredAt": "2026-11-03T08:40:33.524Z"
+    "assetId": 711698540,
+    "mirroredAt": "2026-11-05T02:05:11.366Z"
   }
 }

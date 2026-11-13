@@ -2,7 +2,7 @@
   "schema": 1,
   "env": "stg",
   "repo": "GOTOX-INC/talkx-stg-releases",
-  "updatedAt": "2026-11-13T08:11:24.072Z",
+  "updatedAt": "2026-11-13T08:12:34.587Z",
   "natives": {
     "android": {
       "503": {
@@ -387,7 +387,7 @@
           "mobile-ci-downloader@1+d8999cc9d441"
         ]
       },
-      "status": "pending",
+      "status": "approved",
       "rollout": 100,
       "signature": "pgWmz-M142um4dwLy51Cab4vI4FWLMqn5CPV6V-iAu5x_-aTj4YWHbc9wtFR4nx_302eZ5etCiL_sF0k8av1Yg"
     },
@@ -778,7 +778,7 @@
     }
   ],
   "kind": "history",
-  "rev": 21,
+  "rev": 22,
   "events": [
     {
       "at": "2026-10-28T03:17:59.736Z",
@@ -992,10 +992,20 @@
       "type": "publish",
       "buildId": "web-4.0.7-3bb0f22",
       "to": "pending"
+    },
+    {
+      "at": "2026-11-13T08:12:34.587Z",
+      "rev": 22,
+      "actor": "ditavo98",
+      "run": "https://github.com/GOTOX-INC/talkx-apps/actions/runs/43391410584",
+      "type": "status",
+      "buildId": "web-4.0.7-3bb0f22",
+      "from": "pending",
+      "to": "approved"
     }
   ],
   "mirror": {
-    "assetId": 742842183,
-    "mirroredAt": "2026-11-13T08:11:36.413Z"
+    "assetId": 742845341,
+    "mirroredAt": "2026-11-13T08:12:41.219Z"
   }
 }
